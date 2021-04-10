@@ -126,3 +126,7 @@ nav ul li ul li a:hover{
 .box button:hover{
     background: #b4a7b2;
 }
+
+a{
+    text-decoration: none;
+}
