@@ -99,7 +99,7 @@ nav ul li ul li a:hover{
     float: left;
     padding-right: 1%;
     width: 80%;
-    height: 700px;
+    height: auto;
 }
 
 #text-explain{
