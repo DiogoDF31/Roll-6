@@ -125,3 +125,32 @@ nav ul li ul li a:hover{
 .box button:hover{
     background: #b4a7b2;
 }
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-family: Arial;
+    padding-top: 40px;
+    color: white;
+}
+
+
+.footer-bottom{
+    background-color: #790d0d;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

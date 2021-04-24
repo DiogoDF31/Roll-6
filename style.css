@@ -137,3 +137,35 @@ nav ul li ul li a:hover{
     font-weight: bold;
     color: white;
 }
+
+footer{
+    position: flex;
+    bottom: 0px;
+    
+    width: 100vw;
+    font-family: Arial;
+    padding-top: 5px;
+    color: white;
+}
+
+
+.footer-bottom{
+    background-color: #790d0d;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
