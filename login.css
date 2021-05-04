@@ -75,7 +75,7 @@ nav ul li ul li a:hover{
     width: 300px;
     padding: 40px;
     position: absolute;
-    top: 57%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #6e0b0b;
@@ -125,6 +125,11 @@ nav ul li ul li a:hover{
 
 .box button:hover{
     background: #b4a7b2;
+}
+
+.botao{
+    text-decoration: none;
+    color: white;
 }
 
 a{

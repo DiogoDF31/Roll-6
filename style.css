@@ -138,6 +138,22 @@ nav ul li ul li a:hover{
     color: white;
 }
 
+
+#img1{
+    margin-left: 24%;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
 footer{
     position: flex;
     bottom: 0px;
