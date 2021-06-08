@@ -9,7 +9,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(../img/drag.jpg);
+    background-image: url(../img/MAG12.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -97,7 +97,7 @@ nav ul li ul li a:hover{
 }
 
 #container-explain{
-    background-color: rgb(54, 53, 53);
+    background-color: rgb(80, 79, 79);
     margin-left: 23%;
     height: 100%;
     width: 50%;
