@@ -9,7 +9,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(img/drag.jpg);
+    background-image: url(../img/drag.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -75,6 +75,27 @@ nav ul li ul li a:hover{
     color: black;
 }
 
+.fas{
+    float: right;
+    padding-top: 0.5%;
+    padding-right: 20px;
+}
+
+.fas:hover{
+    cursor: pointer;
+}
+
+.name-user{
+    float: right;
+    padding-top: 0.2%;
+    padding-right: 35px;
+    font-size: 16px;
+}
+
+.name-user:hover{
+    cursor: pointer;
+}
+
 #container-explain{
     background-color: rgb(54, 53, 53);
     margin-left: 23%;
@@ -102,6 +123,19 @@ nav ul li ul li a:hover{
     height: auto;
 }
 
+#img-int{
+    margin-top: 6%;
+    margin-left: 30%;
+    float: left;
+    padding-right: 1%;
+    width: 30%;
+    height: auto;
+}
+
+#linha{
+    border-bottom: 5px solid white;
+}
+
 #text-explain{
     padding-top: 5%;
     padding-right: 10%;
@@ -112,9 +146,17 @@ nav ul li ul li a:hover{
     color: white;
 }
 
-#como-funciona{
+.como-funciona{
     font-weight: bold;
     font-size: 38px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.sub-title{
+    font-weight: bold;
+    font-size: 28px;
     padding-left: 10%;
     padding-right: 10%;
     color: white;
@@ -127,8 +169,17 @@ nav ul li ul li a:hover{
     padding-right: 10%;
     color: white;
     padding-bottom: 3%;
-    border-bottom: 3px solid white;
+    /*border-bottom: 3px solid white;*/
 }
+
+/*.play{
+    padding-right: 15%;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    padding-bottom: 3%;
+} */
 
 #title-news{
     padding-right: 10%;
@@ -145,14 +196,20 @@ nav ul li ul li a:hover{
     max-height: 600px;
 }
 
+.btn{
+    font-family: "roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: #fff;
+    background: #6e0b0b;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-top: 15px;
+}
 
-
-
-
-
-
-
-
+/* -------------- RODAPE -------------------------- */
 
 footer{
     position: flex;

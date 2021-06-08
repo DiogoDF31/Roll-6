@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Monstserrat|Robot");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/foto-login.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #790d0d;
+}
+
+nav p{
+    font-family: Arial;
+    color: #fff;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: left;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: Arial;
+    color: #fff;
+    font-size: 14px;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #790d0d;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a{
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+    background-color: #f3f3f3;
+    color: black;
+
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.leftbox{
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    width: 15%;
+    background: #6e0b0b;
+    box-shadow: 3px 3px 10px rgba(119, 119, 119, .5);
+    border: .1em solid #fff;
+}
+
+.container{
+    background: #fff;
+    width: 540px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10%;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, .5);
+}
+
+.leftbox{
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    width: 15%;
+    height: 110%;
+    background: #6e0b0b;
+    box-shadow: 3px 3px 10px rgba(119, 119, 119, .5);
+    border: .1em solid #fff;
+}
+
+.sett .tab{
+    list-style: none;
+    padding: 80px 35px 35px 35px;
+    color: #fff;
+    font-size: 1.1em;
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.sett .tab:hover{
+    color: #b4a7b2;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.sett .tab:first-child{
+    margin-top: 7px;
+}
+
+.sett .tab.active{
+    color: #b4a7b2;
+}
+
+.rightbox{
+    width: 60%;
+    margin-left: 27%;
+    padding-top: 50px;
+}
+
+.tabShow{
+    transition: all .5s ease-in;
+    width: 80%;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: #6e0b0b;
+    font-size: 1.7rem;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+h2{
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.input{
+    border: 0;
+    border-bottom: 1px solid #6e0b0b;
+    width: 80%;
+    font-family: "montserrat", sans-serif;
+    font-size: .7em;
+    padding: 7px 0;
+    color: #000000;
+    outline: none;
+}
+
+.btn{
+    font-family: "roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: #fff;
+    background: #6e0b0b;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-family: Arial;
+    padding-top: 40px;
+    color: white;
+}
+
+
+.footer-bottom{
+    background-color: #790d0d;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

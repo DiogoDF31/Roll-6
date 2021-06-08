@@ -1,0 +1,9 @@
+create database projeto_roll6;
+
+create table usuarios(
+id_usuario int AUTO_INCREMENT PRIMARY KEY,
+nome varchar(30),
+login varchar (30),
+email varchar (40),
+senha varchar (32)
+);
